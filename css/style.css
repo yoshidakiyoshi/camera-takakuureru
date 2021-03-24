@@ -1,12 +1,13 @@
 @charset "UTF-8";
 /*共通部分-------------------------*/
-body{
-  min-width: 1000px;
+body{  
   font-family: Helvetica, Arial, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  min-width: 990px;
+  margin-left: -10px;
 }
 .wrapper{
-  min-width: 1000px;
-  max-width: 1000px;
+  min-width: 970px;
+  max-width: 970px;
   margin: 0 auto;
 }
 /*ヘッダー-------------------------*/
@@ -15,14 +16,16 @@ header{
 }
 .hd-text{
   font-size: 0.8rem;
-  margin-top: -10px;
+  margin-top: -8px;
 }
 .hd-flex-box{
+  margin-top: -8px;
   display: flex;
 }
 .logo{
   width:150px ;
   height: 80px;
+  margin-left: 5px;
 }
 .user{
   width: 70px;
@@ -41,7 +44,6 @@ header{
   align-items: center;
   
 }
-.logo,
 .user,
 .he-text2,
 .tel-flex-box{
@@ -74,15 +76,15 @@ header{
   font-size: .9rem;
   font-weight: 700;
   position: absolute;
-  top: 83px;
-  left: 405px;
+  top: 75px;
+  left: 400px;
 }
 .tel-fb-text2 span{
   color: #f10000;
 }
 .header-light{
   width: 220px;
-  position: relative;  
+  position: relative;
 }
 .header-light p{
   font-size: .8rem;
@@ -90,21 +92,67 @@ header{
   color:#5bb200 ;
   letter-spacing: 1px;
   text-align: center;
-  margin-top: 0px;
+  margin-top: 5px;
 }
 button{
+  cursor: pointer;
+  outline: none;
   font-size: 1.25rem;
   font-weight: bold;
   color: #fff;
+  text-shadow: -1px -1px #409445;
   height:60px ;
   width: 220px;
-  background-color: #5bb200;
-  border: unset;
-  border-radius: 5px;
+  background:linear-gradient(to bottom ,#5bb200,#1dbe00) ;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  box-shadow: 0px 1px 1px darkgray;
   position: absolute;
   top: 25px;
+}
+button:hover{
+  box-shadow: none;
+  top: 26.5px;
 }
 button span{
   font-size: .85rem;
   display: block;
 }
+/*ナビ-------------------------*/
+.nav-content{
+  margin-top: -8px;
+  position: relative;
+}
+.nav-content ul{
+  list-style: none;
+  display: flex; 
+  position: absolute;
+  left: -35px;
+}
+.nav-content li{
+  cursor: pointer;
+  font-size: .9rem;
+  width: 138.5px;
+  padding: 10px 0;
+  text-align: center;
+  border-right: 1px solid #ddd;
+  position: relative;
+}
+.nav-content li::after{
+  content: "▼";
+  font-size: 5px;
+  color: #fff;
+  transform: scale(1.2,0.6);
+  background-color: #ddd;
+  width: 113px;
+  position: absolute;
+  top: 34px;
+  left: 12.5px;
+}
+.nav-content li:hover::after{
+  background-color: #222;
+}
+.nav-content li:last-child{
+  border-right: none;
+}
+/*トップ-------------------------*/
