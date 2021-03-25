@@ -177,7 +177,7 @@ main{
   display: flex;
 }
 aside{
-  width: 23%;
+  width: 215px;
 }
 article{
   width: 77%;
@@ -227,8 +227,6 @@ aside a{
   margin-bottom: -3px !important;
 }
 .as-kaitorikyouka{
-  width: 215px;
-  height: 256px;
   list-style: none;
   background-color:#fffed5;
   border:2px solid #f10000;
@@ -241,9 +239,92 @@ aside a{
 .as-kaitorikyouka li:last-child{
   border: none;
 }
-
 .as-kaitorikyouka img{
   margin-left: -5px;
   margin-right: 7px;
 }
-
+.sh_info_title{
+  font-size: 0.9rem;
+  color: #ff9600;
+  margin-top:18px;
+  padding-bottom: 1px;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #ff9600;
+}
+.sh_info_title img{
+  margin-right: 5px;
+}
+.as_shop_info{
+  list-style: none;
+}
+.as_shop_info li{
+  display: flex;
+  padding: 7.5px 0;
+  align-items: baseline;
+}
+.as_shop_info span{
+  font-size: 0.725rem;
+  color: #fff;
+  width:48px ;
+  margin-right: 8px;
+  text-align: center;
+  background-color: #ff9600;
+}
+.as_shop_info a:hover{
+  text-decoration: none;
+}
+.kaitori_gaide_title{
+  font-size: 1rem;
+  color: #fff;
+  margin-top: 20px;
+  padding:4px 7px;
+  background-color: #333;
+  letter-spacing: 1px;
+}
+.kaitori_gaide_title img{
+  width: 20px;
+  margin-right: 8px;
+}
+.as_kaitorigaide{
+  list-style: none;
+  border: 1px solid #333;
+}
+.as_kaitorigaide li{
+  width: 200px;
+  margin-left: 5px;
+  padding: 7.5px 10px;border-bottom:1px dotted #ccc;
+}
+.as_kaitorigaide a:hover{
+  text-decoration: none;
+}
+.as_kaitorigaide img{
+  margin-right: 8px;
+}
+.as_img_spead{
+  margin-top: 20px;
+}
+.as_tel_info{
+  padding: 5px;
+  margin-top: 5px;
+  border: 3px solid #b5b5b5;
+  border-radius: 5px;
+}
+.as_tel_info h3{
+  font-size: .85rem;
+  text-align: center;
+}
+.as_tel_number{
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-family: initial;
+  color: #f10000;
+  margin-left: 20px;
+  letter-spacing: -1px;
+  position: relative;
+}
+.as_tel_number img{
+  width: 15px;
+  position: absolute;
+  top: 2px;
+  left: -20px;
+}
