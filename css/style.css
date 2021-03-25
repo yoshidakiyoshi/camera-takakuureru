@@ -172,6 +172,7 @@ button span{
   letter-spacing: 1px;
   text-align: center;
 }
+/*メイン-------------------------*/
 main{
   display: flex;
 }
@@ -180,6 +181,13 @@ aside{
 }
 article{
   width: 77%;
+}
+/*サイド*/
+aside a{
+  font-size: 0.85rem;
+  color: #03c;
+  display: flex;
+  align-items: center;
 }
 .as-flex-box{
   height: 48px;
@@ -214,18 +222,28 @@ article{
 .as-flex-box p span{
   font-weight: bold;
 }
-.focus_ttl{
+.kaitorikyouka_png{
   margin-top: 15px;
+  margin-bottom: -3px !important;
 }
 .as-kaitorikyouka{
+  width: 215px;
+  height: 256px;
   list-style: none;
   background-color:#fffed5;
   border:2px solid #f10000;
 }
-.as-kaitorikyouka a{
-  font-size: 0.9rem;
-  padding: ;
+.as-kaitorikyouka li{
+  padding: 7.5px;
+  margin-left: 5px;
+  border-bottom:1px dotted #ccc;
 }
-.as-kaitorikyouka a::before{
-  content:url(../img/fucus_li_icon.png);
+.as-kaitorikyouka li:last-child{
+  border: none;
 }
+
+.as-kaitorikyouka img{
+  margin-left: -5px;
+  margin-right: 7px;
+}
+
