@@ -173,14 +173,16 @@ button span{
   text-align: center;
 }
 /*メイン-------------------------*/
-main{
+.main-content{
   display: flex;
 }
 aside{
   width: 215px;
 }
-article{
-  width: 77%;
+main{
+  width: 745px;
+  padding-left: 20px;
+  border: 1px solid #0bd;
 }
 /*サイド*/
 aside a{
@@ -327,4 +329,239 @@ aside a{
   position: absolute;
   top: 2px;
   left: -20px;
+}
+.as_tel_text{
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #f10000;
+}
+.as_tel_text span{
+  font-size: 0.75rem;
+  color: #fff;
+  font-weight: bold;
+  background-color: #f10000;
+  margin-right: 2px;
+  padding: 2px;
+}
+.as_tel_text2{
+  font-size: 0.8rem;
+  font-weight: bold;
+  font-family: initial;
+  margin-top: 5px;
+}
+.as_tel_text2 span{
+  font-size: 0.75rem;
+}
+.recruit_img{
+  margin-top: 10px;
+}
+.as_delivery{
+  margin-top: 15px;
+  border: 8px solid #ddd;
+  text-align: center;
+  position: relative;
+}
+.as_del_img{
+  position: absolute;
+  top: -18px;
+  left: 5px;
+}
+.as_del_text{
+  font-size: 0.85rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.as_del_text2{
+  font-size: 0.75rem;
+}
+.manga_img{
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+.houjin_banner{
+  margin-top: 10px;
+  text-align: center;
+}
+.houjin_banner p{
+  font-size: 0.5rem;
+  margin-top: -5px;
+}
+.no_kaitori{
+  width: 220px;
+  margin-top: 10px;
+}
+.no_kaitori_flex{
+  display: flex;
+  margin-top: 5px;
+}
+.no_kaitori_flex img{
+  width: 60px;
+  height: 60px;
+}
+.no_kaitori_flex small{
+  font-size: 0.4rem;
+}
+/*メイン-------------------------*/
+.introduction img{
+  width: 100%;
+}
+.introduction p{
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+}
+.camerapoint{
+  width: 100%;
+}
+/*査定ボタン*/
+.satei_contact{
+  display: flex;
+  max-height: 148px;
+  justify-content: space-between;
+  border: 2px solid #eee;
+  padding: 10px 10px 10px 35px;
+}
+.satei_contact img{
+  height: 100%;
+  margin-top: 5px;
+}
+.satei_contact img:hover{
+  margin-top: 8px;
+}
+.satei_text_box{
+  width: 320px !important;
+  margin-top: 5px;
+}
+.satei_text{
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #888;
+  height: 25px;
+  letter-spacing: 1.5px;
+}
+.satei_text_box span{
+  display: block;
+  height: 63px;
+  font-size: 2.5rem;
+  font-weight: 900;
+  padding-left: 3px;
+  letter-spacing: 1.25px;
+  color: #fc8622;
+}
+.satei_text2{
+  font-size: 0.9rem;
+  color: #fff;
+  margin-bottom: 20px;
+  padding-top: 2px;
+  text-align: center;
+  background-color: #666;
+}
+.tel_info{
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #c33;
+  margin-top: 10px !important;
+  padding: 2px 15px;
+  border: 1px solid #c33;
+  border-radius: 15px;
+  letter-spacing: 0.5px;
+}
+/*買取対象品目*/
+.buy_Target{
+  margin-top: 20px;  
+}
+.sub_heading{
+  font-size: .95rem;
+  color: #fff;
+  padding: 10px 20px;
+  background-color: #666;
+}
+.grid_box{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 10px;
+  margin-top: 30px;
+}
+.grid_item{
+  height: 115px;
+  text-align: center;
+}
+.grid_item img{
+  display: block;
+  width: 75%;
+  margin-left: 15px;
+}
+.grid_item a{
+  font-size: .5rem;
+}
+.buy_tg_link{
+  text-align: right;
+  position: relative;
+}
+.buy_tg_link span{
+  font-size: 0.8rem;
+  position: absolute;
+  top: 1px;
+  right: 120px;
+}
+.buy_tg_link a{
+  font-size: 0.75rem;
+}
+/*買取方法-------------------------*/
+.b_m_text{
+  font-size: .8rem;
+  margin-top: 35px;
+}
+.b_m_flex_box{
+  display: flex;
+  margin-top:30px ;
+}
+.b_m_item{
+  width: 235px;
+  margin-right: 8px;
+  background-color: #eee;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px darkgray;
+  text-align: center;
+}
+.b_m_item h2{
+  width:130px ;
+  font-size: 1.35rem;
+  margin-top: 30px;
+  margin-left: 65px;
+  border-bottom: 2px solid black;
+}
+.b_m_item img{
+  width: 150px;
+  margin-top: 13px;
+}
+.b_m_item p{
+  font-size: 0.75rem;
+  margin-top: 15px;
+  padding: 0 13px;  
+}
+.b_m_button{
+  display: inline-block;
+  font-size: 0.8rem;
+  color: #fff;
+  margin-top: 25px;
+  margin-bottom: 15px ;
+  padding: 17px 17px;
+  background-color: black;  
+  border: 2px solid black;
+  border-radius: 8px;
+  text-decoration: none;  
+}
+.b_m_button:hover{
+  color: black;
+  background-color: #fff;
+  transition:background-color 0.3s;
+}
+.buy_performance{
+  margin-top: 30px;
+}
+.pf_grid_box{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 5px;
 }
