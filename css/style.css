@@ -4,7 +4,6 @@
 body{  
   font-family: Helvetica, Arial, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   min-width: 990px;
-  margin-left: -10px;
 }
 .wrapper{
   min-width: 980px;
@@ -176,7 +175,6 @@ button span{
 .main-content{
   display: flex;
   font-family: meiryo;
-  border: 1px solid #0bd;
 }
 aside{
   width: 215px;
@@ -637,4 +635,41 @@ aside a{
   background-color: #fff;
   transition:background-color 0.3s;
 }
-
+/*お持ちのカメラ-------------------------*/
+.personal_effects{
+  margin-top: 30px;
+}
+.p_e_box{
+  margin-top: 15px;
+  padding: 0 5px;
+}
+.p_e_flex{
+  display: flex;
+}
+.item_name{
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-align: center;
+  width: 206px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background-color: #e6e6fa;
+  border: 1px solid #927141;
+}
+.flexiblebox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.explanation{
+  font-size: 0.75rem;
+  width: 518px;
+  height: max-content;
+  margin-bottom: 5px;
+  border: 1px solid #af9d85;
+  
+}
+/*査定ボタン*/
+.p_e_under_satei{
+  margin-top: 10px;
+}
