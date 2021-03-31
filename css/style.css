@@ -176,14 +176,15 @@ button span{
 .main-content{
   display: flex;
   font-family: meiryo;
+  border: 1px solid #0bd;
 }
 aside{
   width: 215px;
+  margin-right: 20px;
   border: 1px solid #0bd;
 }
 main{
   width: 750px;
-  margin-left: 20px;
   border: 1px solid #0bd;
 }
 /*サイド*/
@@ -201,6 +202,7 @@ aside a{
 .as-span1,
 .as-span2{
   font-weight: bold;
+  font-family: Arial;
 }
 .as-span1{
   transform: 
@@ -419,7 +421,8 @@ aside a{
   display: flex;
   max-height: 148px;
   justify-content: space-between;
-  border: 2px solid #eee;
+  background-color: #eee;
+  border: 2px solid #ddd;
   padding: 10px 10px 10px 35px;
 }
 .satei_contact img{
@@ -511,6 +514,7 @@ aside a{
 }
 .buy_tg_link a{
   font-size: 0.75rem;
+  color: #00f;
 }
 /*買取実績-------------------------*/
 .buy_performance{
@@ -565,14 +569,25 @@ aside a{
   background-color:#8cc63f ;
 }
 .b_pf_link{
-  display: block;
-  font-size: .85rem;
+  font-size: .95rem;
   text-align: right;
 }
-
-
+.b_pf_link a{
+  color: #00f;
+}
+.pf_under_text{
+  font-size: .75rem;
+  margin-top: 30px;
+}
+/*査定ボタン*/
+.pf_btm_satei{
+  margin-top: 30px;
+}
 
 /*買取方法-------------------------*/
+.buy_method{
+  margin-top:20px ;
+}
 .b_m_text{
   font-size: .8rem;
   margin-top: 35px;
