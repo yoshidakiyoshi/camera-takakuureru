@@ -414,13 +414,15 @@ aside a{
 .camerapoint{
   width: 100%;
 }
-/*査定ボタン*/
+/*査定リンクボタン*/
 .satei_contact{
   display: flex;
+  width: 727px;
   max-height: 148px;
+  margin-left: 10px;
   justify-content: space-between;
-  background-color: #eee;
-  border: 2px solid #ddd;
+  background-color: rgb(245, 245, 245);
+  border: 2px solid #eee;
   padding: 10px 10px 10px 35px;
 }
 .satei_contact img{
@@ -577,7 +579,7 @@ aside a{
   font-size: .75rem;
   margin-top: 30px;
 }
-/*査定ボタン*/
+/*査定リンクボタン*/
 .pf_btm_satei{
   margin-top: 30px;
 }
@@ -669,7 +671,7 @@ aside a{
   border: 1px solid #af9d85;
   
 }
-/*査定ボタン*/
+/*査定リンクボタン*/
 .p_e_under_satei{
   margin-top: 10px;
 }
@@ -706,6 +708,59 @@ aside a{
 .b_f_item img{
   width: 256px;
 }
+/*買取対応エリア------------------------------*/
+.buy_correspondence{
+  margin-top: 30px;
+}
+.b_c_flex{
+  display: flex;
+  margin-top: 30px;
+}
+.b_c_flex p{
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+}
+.b_c_flex span{
+  color: red;
+}
+.b_c_flex img{
+  width: 354px;
+}
+.b_c_flex2{
+  display: flex;
+  margin-top: 20px;
+  text-align: center;
+}
+.b_c_flex2 p{
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #333;
+  width: 67px;
+  margin-right: 7px;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+.b_c_flex2 span{
+  display: block;
+  font-size: 0.65rem;
+  font-weight: initial;
+  margin-top: -4px;
+}
+/*査定リンクボタン*/
+.b_c_under_satei{
+  margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
 
 
 

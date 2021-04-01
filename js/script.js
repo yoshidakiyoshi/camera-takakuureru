@@ -1,5 +1,5 @@
 $(function(){
-
+  $(function(){
   /*買取実績:申し込みホバー*/
   var target = $('.pf_grid_item');  
 
@@ -23,6 +23,36 @@ $(function(){
         'transition':'background-color 0.3s' ,
       });
     });
+  });/*買取実績:申し込みホバー*/
 
+  /*買取対応エリアボタン　ホバー*/
+  $(function(){
+    var target_p = $('.b_c_flex2 p');
+    var target_span = $('.b_c_flex2 span');
+
+    target_p.hover(function(){
+      //ホバーオン
+      var i = target_p.index(this);
+
+      target_p.eq(i).css({
+        'background-color':'lightblue',
+        'color':'#fff'
+      });
+
+      target_span.eq(i).css({'color':'#fff'});
+    },
+    function(){
+      //ホバーオフ
+      var i = target_p.index(this);
+
+      target_p.eq(i).css({
+        'background-color':'#eee',
+        'color':'#333'
+      });
+
+      target_span.eq(i).css({'color':'initial'});
+    });
+
+  })
 
 });
