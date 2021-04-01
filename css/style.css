@@ -178,7 +178,7 @@ button span{
 }
 aside{
   width: 215px;
-  margin-right: 20px;
+  margin-right: 15px;
   border: 1px solid #0bd;
 }
 main{
@@ -672,4 +672,44 @@ aside a{
 /*査定ボタン*/
 .p_e_under_satei{
   margin-top: 10px;
+}
+
+/*カメラの高価買取ができる理由と特徴-------------------------*/
+.buy_features{
+  margin-top: 75px;
+}
+.b_f_text{
+  font-size: .8rem;
+  margin-top: 35px;
+}
+.b_f_grid{
+  display: grid;
+  grid-template-columns: repeat(2,332px);
+  grid-template-rows: repeat(2,446px);
+  gap:8px ;
+  margin-top: 30px;
+  padding: 0 30px;
+}
+.b_f_item{
+  padding: 15px;
+  border: 1px solid #000;
+  text-align: center;
+}
+.b_f_item p{
+  font-size: 0.75rem;
+  text-align: left;
+  margin-top: 18px;
+}
+.itemB{
+  background-color: #eee;
+}
+.b_f_item img{
+  width: 256px;
+}
+
+
+
+/*テンプレート------------------------------*/
+.tmp{
+  display: none;
 }
