@@ -3,7 +3,7 @@
 
 body{  
   font-family: Helvetica, Arial, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-  min-width: 990px;
+  min-width: 985px;
 }
 .wrapper{
   min-width: 980px;
@@ -171,21 +171,17 @@ button span{
   letter-spacing: 1px;
   text-align: center;
 }
-/*メイン-------------------------*/
+/*メインコンテンツ-------------------------*/
 .main-content{
   display: flex;
   font-family: meiryo;
 }
-aside{
-  width: 215px;
-  margin-right: 15px;
-  border: 1px solid #0bd;
-}
-main{
-  width: 750px;
-  border: 1px solid #0bd;
-}
+
 /*サイド*/
+aside{
+  width: 216px;
+  margin-right: 20px;
+}
 aside a{
   font-size: 0.85rem;
   color: #03c;
@@ -404,12 +400,16 @@ aside a{
   font-size: 0.4rem;
 }
 /*メイン-------------------------*/
+main{
+  width: 740px;
+}
 .introduction img{
   width: 100%;
 }
 .introduction p{
   font-size: 0.8rem;
   margin-bottom: 20px;
+  padding-right: 5px;
 }
 .camerapoint{
   width: 100%;
@@ -419,7 +419,7 @@ aside a{
   display: flex;
   width: 727px;
   max-height: 148px;
-  margin-left: 10px;
+  margin-left: 5px;
   justify-content: space-between;
   background-color: rgb(245, 245, 245);
   border: 2px solid #eee;
@@ -472,7 +472,8 @@ aside a{
   border-radius: 15px;
   letter-spacing: 0.5px;
 }
-/*買取対象品目*/
+/*カメラ買取対象品目はこちら
+*/
 .buy_Target{
   margin-top: 20px;  
 }
@@ -516,9 +517,11 @@ aside a{
   font-size: 0.75rem;
   color: #00f;
 }
-/*買取実績-------------------------*/
+/*カメラの買取実績をご紹介
+*/
 .buy_performance{
   margin-top: 30px;
+  margin-bottom: 28px;
 }
 .pf_grid_box{
   display: grid;
@@ -531,9 +534,19 @@ aside a{
   background-color: #eee;
   padding: 8px;
 }
+.pf_grid_item div{
+  min-height: 138px;
+  background-color: #fff;
+  text-align: center;
+}
 .pf_grid_item img{
   width: 160px;
   height: 130px;
+}
+.canon_img{
+  width: 150px !important;
+  height: 120px !important;
+  margin-top: 10px;
 }
 .pf_product_name{
   font-size: 0.85rem;
@@ -579,12 +592,9 @@ aside a{
   font-size: .75rem;
   margin-top: 30px;
 }
-/*査定リンクボタン*/
-.pf_btm_satei{
-  margin-top: 30px;
-}
 
-/*買取方法-------------------------*/
+
+/*買取方法*/
 .buy_method{
   margin-top:20px ;
 }
@@ -637,9 +647,10 @@ aside a{
   background-color: #fff;
   transition:background-color 0.3s;
 }
-/*お持ちのカメラ-------------------------*/
+/*お持ちのカメラの種類は？*/
 .personal_effects{
   margin-top: 30px;
+  margin-bottom: 10px;
 }
 .p_e_box{
   margin-top: 15px;
@@ -671,14 +682,11 @@ aside a{
   border: 1px solid #af9d85;
   
 }
-/*査定リンクボタン*/
-.p_e_under_satei{
-  margin-top: 10px;
-}
 
-/*カメラの高価買取ができる理由と特徴-------------------------*/
+
+/*カメラの高価買取ができる理由と特徴*/
 .buy_features{
-  margin-top: 75px;
+  margin-top: 50px;
 }
 .b_f_text{
   font-size: .8rem;
@@ -708,9 +716,10 @@ aside a{
 .b_f_item img{
   width: 256px;
 }
-/*買取対応エリア------------------------------*/
+/*カメラの買取対応エリア*/
 .buy_correspondence{
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 .b_c_flex{
   display: flex;
@@ -748,23 +757,344 @@ aside a{
   font-weight: initial;
   margin-top: -4px;
 }
-/*査定リンクボタン*/
-.b_c_under_satei{
-  margin-top: 30px;
+
+
+/*カメラ高く売れるドットコムをご利用頂いたお客様の声・口コミ*/
+.buy_WordOfMouth{
+  margin-top: 20px;
+}
+.b_w_flex{
+  display: flex;
+  width: 740px;
+  margin-top: 12px;
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+.b_w_flex2{
+  display: flex;
+}
+.b_w_text_box{
+  width: 280px;
+  text-align: center;
+}
+.b_w_text_box h3{
+  font-size: 1.1rem;
+}
+.b_w_text_box p{
+  font-size: 0.9rem;
+}
+.b_w_flex2 ul{
+  width: 200px;
+  list-style: none;
+  text-align: center;
+  margin-top: 5px;
+  border-left: 1px dotted #ddd;
+}
+.b_w_flex2 li{
+  font-size: 0.75rem;
+  margin-bottom: 18px;
+}
+.b_w_flex2 li:last-child{
+  margin-bottom:unset;
+}
+.star_bg_box{
+  margin-top: 3px;
+}
+.star_boxA{
+  margin-bottom: 12px;
+}
+.star_box img{
+  margin-right: 2px;
 }
 
+/*お客様の声*/
+.customer_voice{
+  width: 745px;
+  overflow: hidden;
+}
+.c_v_container{
+  margin-top: 17px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+.c_v_box{
+  padding: 30px;
+  border: 20px solid #f9f5ee;  
+  position: relative;
+}
+.c_v_box p{
+  font-size: 0.93rem;
+}
+.upper{
+  position: absolute;
+  top:-20px;
+  left: -20px;
+}
+.c_v_flex1,
+.c_v_flex2,
+.c_v_flex3{
+  display: flex;
+}
+.c_v_flex1{
+  margin-bottom: 30px;
+}
+.c_v_flex1 img{
+  width: 190px;
+  height: 142px;
+  margin-right: 22px;
+}
+.c_name{
+  margin-bottom: 10px;
+}
+.c_name span{
+  font-weight: bold;
+}
+.c_v_buyitem_box{
+  display: flex;
+  border: 1px solid #ddd;
+}
+.c_v_buyitem{
+  width: 80px;
+  text-align: center;
+  padding-top: 35px;
+  background-color:#f9f5ee ;
+  border-right:1px solid #ddd ;
+}
+.c_v_buyitem_name_box{
+  width: 330px;
+  padding:10px 10px 10px 18px;
+}
+.c_v_buyitem_name{
+  display: inline;
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ddd;
+}
+.c_v_buyitem_name,
+.c_v_buyitem_productnumber{
+  line-height: 35px;
+}
+.c_v_flex2,
+.c_v_flex3{
+  align-items: center;
+}
+.c_v_flex2 div,
+.c_v_flex3 div{
+  width: 130px;
+  text-align: center;
+}
+.c_v_flex2 div span,
+.c_v_flex3 div span{
+  display: block;
+  font-size: 0.6rem;
+  font-weight: bold;
+  margin-top: -3px;
+}
+.c_v_comment_box,
+.c_v_flex3 p{
+  width: 500px !important;
+  padding: 0 10px;
+}
+.c_v_comment_box{  
+  text-align: unset !important;
+}
+.c_v_flex2{
+  margin-bottom: 10px;
+}
+.board_img{
+  width: 15px;
+  height: 25px;
+}
+.c_v_comment{
+  display: inline;
+  font-weight: bold;
+  line-height: 1.75;
+  border-bottom: 2px solid #f49c1c;
+}
+.c_v_grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:6px;
+  width: 600px;
+  margin-top: 12px;
+  margin-bottom:5px ;
+}
+.evaluation{
+  display: flex;
+  align-items: center;
+  border:1px solid #ddd ;
+}
+.evaluation span{
+  display: block;
+  font-size: 0.8rem;  
+  text-align: center;
+  width:140px ;
+  padding: 4px 0;
+  background-color: #eee;
+}
+.ev_star_box{
+  margin-left: 30px;
+}
+.ev_star_box img{
+  margin-right: 2px;
+}
+.yes_img{
+  margin-left: 30px;
+}
 
+.customer_voice .b_pf_link{
+  margin-top: 20px;
+}
+/*カメラを高く売るためのポイント*/
+.buy_point{
+  margin-top: 63px;
+}
+.b_p_box{
+  margin-top:35px ;
+}
+.b_p_box p{
+  font-size: .815rem;
+  padding-right:5px ;
+}
+.b_p_box ul{
+  list-style: none;
+  margin-top: 30px;  
+}
+.b_p_box li{
+  font-size: .95rem;
+  margin-bottom: 9px;
+  padding-left: 20px;
+  position: relative;
+}
+.b_p_box li::before{
+  transform:rotate(45deg);
+  content: "";
+  display: block;
+  position: absolute;
+  top:6px;
+  left: 9px;
+  height: 11px;
+  width: 4px;
+  background-color: #d4d4d4;
+  border-radius: 10px;
+}
+.b_p_box li::after{
+  transform:rotate(-45deg);
+  content: "";
+  display: block;
+  position: absolute;
+  top:9px;
+  left: 5px;
+  height: 8px;
+  width: 4px;
+  background-color: #d4d4d4;
+  border-radius: 10px;
+}
 
+.buy_point .b_pf_link{
+  font-size: 0.8rem;
+  margin-top: 35px;
+}
 
+/*よくある質問*/
+.question{
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.q_heading{
+  font-size: 0.95rem;
+  margin-top: 20px;
+  padding: 9px 8px;
+  background-color: #eee;
+}
+.q_heading::before,
+.question p::before{
+  content: "Q.";
+  font-size: 1.1rem;
+  padding-right: 5px;
+}
+.question p{
+  font-size: 0.925rem;
+  line-height: 1.25;
+  margin-top: 18px;
+  padding:0 10px;
+}
+.q_text{
+  font-weight: bold;
+}
+.question p::before{
+  content: "A.";
+  font-weight: bold;
+}
+.question .b_pf_link{
+  font-size: 0.85rem;
+  margin-top: 20px;
+}
 
-
-
-
-
-
-
-
-/*テンプレート------------------------------*/
-.tmp{
-  display: none;
+/*フッター------------------------------*/
+footer{
+  margin-top: 10px;
+  border-top: 1px solid #ccc;
+}
+footer .wrapper{
+  margin-top: 10px;
+  background-color:#f5f5f5 ;
+}
+.copyright{
+  font-size: 0.75rem;
+  font-family: meiryo;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0 7px 0;
+  background-color: #000;
+  opacity: 0.8;
+}
+.footer_upper{
+  display: flex;
+  align-items: center;
+}
+.f_text{  
+  font-size: 0.48rem;
+  max-width: 235px;
+  margin-left: 10px;
+}
+.footer_adress{
+  letter-spacing: 0.8px;
+}
+.footer_upper ul{
+  width: 520px;
+  display: flex;
+  list-style: none;
+  margin-left: 153px;
+}
+.footer_upper ul img{
+  margin-right: 1px;
+}
+.footer_upper li{
+  font-size: 0.5rem;
+  margin-right: 10px;
+}
+.footer_upper li:nth-of-type(4),
+.footer_upper li:nth-of-type(6)
+{
+  letter-spacing: -1px;
+}
+.footer_upper li:last-child{
+  margin-right: unset;
+}
+.footer_upper a
+{
+  color: #2e71b8;
+}
+.footer_bottom{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.footer_bottom small{
+  font-size: 0.5rem;
+}
+.f_btm_logo{
+  width:115px ;
+  height: 60px;
 }
